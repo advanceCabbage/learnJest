@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试 gennerateAnthorConfig  1`] = `
+Object {
+  "port": 8080,
+  "server": "http://localhost",
+  "time": 2021,
+}
+`;
+
+exports[`测试 gennerateConfig  1`] = `
+Object {
+  "port": 8080,
+  "server": "http://localhost",
+  "time": Any<Date>,
+}
+`;

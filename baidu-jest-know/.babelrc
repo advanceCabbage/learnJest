@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["@babel/preset-env",{ // 转换ES6的import等语法为CommonJS的require等
+      "targets":{
+        "node":"current"
+      }
+    }]
+  ]
+}
+
+
+
+// npm run jest
+// 执行 jest (babel-jest)
+// 判断是否有 babel-core
+// 存在则取.babelrc配置
+// 在运行测试之前，结合babel，先把你的代码做一次转化
+// 运行转化过的测试用例代码
